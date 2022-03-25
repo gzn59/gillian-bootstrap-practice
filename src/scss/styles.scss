@@ -24,3 +24,125 @@
 
 // Custom styles:
 
+// Nav bar settings
+.navbar-nav 
+a:hover {
+  text-decoration: underline;
+}
+.active {
+  font-weight: bold;
+  }
+
+
+// Jumbotron/header
+.jumbotron {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/pirate-ship.jpg);
+
+  h1{
+    font-family:"Volkhov";
+    font-weight: bolder;
+    font-style: italic;
+    padding-top: 75px;
+  }
+  p{
+    font-family: "Volkhov";
+    font-style: normal;
+    font-size: 35px;
+  }
+}
+
+.header{
+  font-family: "Volkhov";
+  font-style: oblique;
+}
+
+
+// Footer
+footer { 
+  background-color: cadetblue;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+}
+h3{
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+p{
+  font-style: italic;
+  font-family: fantasy;
+  font-size: small;
+}
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 25%;
+  }
+}
+
+.carousel{
+  p{
+    background-color: #115271;
+  }
+  h5{
+    background-color: #115271;
+  }
+}
+
+
+// mail page 
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
